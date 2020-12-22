@@ -1,0 +1,51 @@
+/* BANNER: Welcome message; */
+.banner {
+	margin: 5px auto;
+	min-height: 400px;
+	color: aquamarine;
+	border-radius: 5px;
+	/* background-image: url('../images/bubbbb.png'); */
+	background-color: rgba(92, 89, 89, 0.753);
+	background-size: 100% 100%;
+}
+.banner .welcome_msg {
+	width: 45%;
+	float: left;
+	padding: 20px;
+}
+/* BANNER: Login Form; */
+.banner .login_div {
+	width: 50%;
+	float: left;
+}
+.banner .login_div form {
+	margin-top: 40px;
+}
+.banner .login_div form h2 {
+	color: rgb(61, 184, 184);
+	margin-bottom: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+.banner .login_div form input {
+	width: 60%;
+	color: rgb(0, 0, 0);
+	border: 1px solid #30475e;
+	margin: 10px auto;
+	letter-spacing: 1.3px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+.banner .login_div form button {
+	display: block;
+	background: #006384;
+	margin-left: 20%;
+}
+.banner .register form button {
+	display: block;
+	color: white;
+	background: #006384;
+	margin-left: 20%;
+}
+
+#register a{
+	color: #30475e;
+}
